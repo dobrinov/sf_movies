@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'sinatra'
 gem 'json'
+gem 'capybara'
+gem 'poltergeist'
 gem 'rspec'
 gem 'rack-test'
 gem 'vcr'

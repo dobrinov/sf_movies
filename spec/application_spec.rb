@@ -8,6 +8,13 @@ describe 'Application' do
     Sinatra::Application
   end
 
+  describe 'GET /' do
+    it 'renders index' do
+      get '/'
+      expect(last_response).to be_ok
+    end
+  end
+
   describe 'GET /movies' do
     context 'when production_company specified' do
       it 'returns movies for this production_company' do

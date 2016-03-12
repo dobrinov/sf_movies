@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sat, 12 Mar 2016 18:22:00 GMT
+      - Sat, 12 Mar 2016 18:13:28 GMT
       Content-Type:
       - application/json;charset=utf-8
       Transfer-Encoding:
@@ -231,5 +231,127 @@ http_interactions:
         cyJ9Cix7InByb2R1Y3Rpb25fY29tcGFueSI6IlJldm9sdXRpb24gU3R1ZGlv
         cyJ9XQo=
     http_version: 
-  recorded_at: Sat, 12 Mar 2016 18:22:00 GMT
+  recorded_at: Sat, 12 Mar 2016 18:13:29 GMT
+- request:
+    method: get
+    uri: https://data.sfgov.org/resource/wwmu-gmzc.json?$group=production_company&$select=production_company&$where=production_company%20like%20%27%25Miramax%20Films%25%27
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 12 Mar 2016 18:13:29 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Last-Modified:
+      - Thu, 10 Mar 2016 19:04:57 GMT
+      X-Soda2-Fields:
+      - '["production_company"]'
+      X-Soda2-Types:
+      - '["text"]'
+      X-Soda2-Data-Out-Of-Date:
+      - 'false'
+      X-Soda2-Truth-Last-Modified:
+      - Thu, 10 Mar 2016 19:04:57 GMT
+      X-Socrata-Region:
+      - production
+      Age:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        [{"production_company":"Miramax Films"}]
+    http_version: 
+  recorded_at: Sat, 12 Mar 2016 18:13:29 GMT
+- request:
+    method: get
+    uri: https://data.sfgov.org/resource/wwmu-gmzc.json?production_company=Miramax%20Films
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 12 Mar 2016 18:13:29 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Last-Modified:
+      - Thu, 10 Mar 2016 19:04:57 GMT
+      X-Soda2-Fields:
+      - '["actor_1","actor_2","actor_3","director","distributor","fun_facts","locations","production_company","release_year","smile_again_jenny_lee","title","writer"]'
+      X-Soda2-Types:
+      - '["text","text","text","text","text","text","text","text","number","number","text","text"]'
+      X-Soda2-Data-Out-Of-Date:
+      - 'false'
+      X-Soda2-Truth-Last-Modified:
+      - Thu, 10 Mar 2016 19:04:57 GMT
+      X-Socrata-Region:
+      - production
+      Age:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3siYWN0b3JfMSI6Ikpvc2ggSGFydG5ldHQiLCJhY3Rvcl8yIjoiU2hheW5u
+        eW4gU29zc2Ftb24iLCJkaXJlY3RvciI6Ik1pY2hhZWwgTGVobWFubiIsImRp
+        c3RyaWJ1dG9yIjoiTWlyYW1heCBGaWxtcyIsImZ1bl9mYWN0cyI6IkVzdGFi
+        bGlzaGVkIGluIDE4NjcsIEJ1ZW5hIFZpc3RhIFBhcmsgaXMgdGhlIG9sZGVz
+        dCBvZmZpY2lhbCBwYXJrIGluIFNhbiBGcmFuY2lzY28uIiwibG9jYXRpb25z
+        IjoiVGhlIFdhbGRlbiBIb3VzZSwgQnVlbmEgVmlzdGEgUGFyayIsInByb2R1
+        Y3Rpb25fY29tcGFueSI6Ik1pcmFtYXggRmlsbXMiLCJyZWxlYXNlX3llYXIi
+        OiIyMDAyIiwidGl0bGUiOiI0MCBEYXlzIGFuZCA0MCBOaWdodHMiLCJ3cml0
+        ZXIiOiJSb2JlcnQgUGVyZXoifQoseyJhY3Rvcl8xIjoiSm9zaCBIYXJ0bmV0
+        dCIsImFjdG9yXzIiOiJTaGF5bm55biBTb3NzYW1vbiIsImRpcmVjdG9yIjoi
+        TWljaGFlbCBMZWhtYW5uIiwiZGlzdHJpYnV0b3IiOiJNaXJhbWF4IEZpbG1z
+        IiwiZnVuX2ZhY3RzIjoiRnJhbmNpcyBGb3JkIENvcHBvbGEgYWxsZWdlZGx5
+        IHdyb3RlIGxhcmdlIHBvcnRpb25zIG9mIFwiVGhlIEdvZGZhdGhlclwiIHRy
+        aWxvZ3kgaW4gQ2Fmw6kgVHJpZXN0ZS4iLCJsb2NhdGlvbnMiOiJDYWbDqSBU
+        cmllc3RlICg2MDkgVmFsbGVqbykiLCJwcm9kdWN0aW9uX2NvbXBhbnkiOiJN
+        aXJhbWF4IEZpbG1zIiwicmVsZWFzZV95ZWFyIjoiMjAwMiIsInRpdGxlIjoi
+        NDAgRGF5cyBhbmQgNDAgTmlnaHRzIiwid3JpdGVyIjoiUm9iZXJ0IFBlcmV6
+        In0KLHsiYWN0b3JfMSI6IkpvaG4gQ3VzYWNrIiwiYWN0b3JfMiI6IkthdGUg
+        QmVja2luc2FsZSIsImRpcmVjdG9yIjoiUGV0ZXIgQ2hlbHNvbSIsImRpc3Ry
+        aWJ1dG9yIjoiTWlyYW1heCBIb21lIEVudGVydGFpbm1lbnQiLCJwcm9kdWN0
+        aW9uX2NvbXBhbnkiOiJNaXJhbWF4IEZpbG1zIiwicmVsZWFzZV95ZWFyIjoi
+        MjAwMSIsInRpdGxlIjoiU2VyZW5kaXBpdHkiLCJ3cml0ZXIiOiJNYXJjIEts
+        ZWluIn1dCg==
+    http_version: 
+  recorded_at: Sat, 12 Mar 2016 18:13:29 GMT
 recorded_with: VCR 3.0.1

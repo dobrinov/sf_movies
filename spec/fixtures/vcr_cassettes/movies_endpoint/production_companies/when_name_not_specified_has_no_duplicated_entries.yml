@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sat, 12 Mar 2016 12:08:21 GMT
+      - Sat, 12 Mar 2016 18:22:01 GMT
       Content-Type:
       - application/json;charset=utf-8
       Transfer-Encoding:
@@ -231,7 +231,7 @@ http_interactions:
         cyJ9Cix7InByb2R1Y3Rpb25fY29tcGFueSI6IlJldm9sdXRpb24gU3R1ZGlv
         cyJ9XQo=
     http_version: 
-  recorded_at: Sat, 12 Mar 2016 12:08:22 GMT
+  recorded_at: Sat, 12 Mar 2016 18:22:01 GMT
 - request:
     method: get
     uri: https://data.sfgov.org/resource/wwmu-gmzc.json?$group=production_company&$select=production_company&$where=production_company%20like%20%27%25%25%27
@@ -253,7 +253,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sat, 12 Mar 2016 12:08:23 GMT
+      - Sat, 12 Mar 2016 18:22:02 GMT
       Content-Type:
       - application/json;charset=utf-8
       Transfer-Encoding:
@@ -463,5 +463,5 @@ http_interactions:
         cyJ9Cix7InByb2R1Y3Rpb25fY29tcGFueSI6IlJldm9sdXRpb24gU3R1ZGlv
         cyJ9XQo=
     http_version: 
-  recorded_at: Sat, 12 Mar 2016 12:08:23 GMT
+  recorded_at: Sat, 12 Mar 2016 18:22:03 GMT
 recorded_with: VCR 3.0.1
