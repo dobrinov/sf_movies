@@ -7,8 +7,6 @@ class MoviesEndpoint
   def initialize
     @uri = URI.parse(DATASET_ENDPOINT)
     @http = Net::HTTP.new(@uri.host, @uri.port)
-    @http.use_ssl = true
-    @http.verify_mode = OpenSSL::SSL::VERIFY_NONE
   end
 
   def self.production_companies(name: nil)
@@ -38,6 +36,8 @@ class MoviesEndpoint
   end
 
   def https_get(args)
+    @http.use_ssl = true
+    @http.verify_mode = OpenSSL::SSL::VERIFY_NONE
     @uri.query = URI.encode_www_form(args)
     request = Net::HTTP::Get.new(@uri.request_uri)
     response = @http.request(request)
