@@ -1,7 +1,4 @@
-ENV['RACK_ENV'] = 'test'
-
-require 'rspec'
-require 'rack/test'
+require_relative './spec_helper'
 require_relative '../application'
 
 describe 'Application' do

@@ -1,4 +1,4 @@
-require 'rspec'
+require_relative './spec_helper'
 require_relative '../movies_endpoint'
 
 describe MoviesEndpoint do
